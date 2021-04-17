@@ -1,4 +1,4 @@
-ppackage controllers.reports;
+package controllers.reports;
 
 import java.io.IOException;
 import java.sql.Date;
