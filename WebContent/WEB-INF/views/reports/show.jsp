@@ -14,6 +14,14 @@
                             <td><c:out value="${report.employee.name}" /></td>
                         </tr>
                         <tr>
+                            <th>出勤</th>
+                            <td><c:out value="${report.startTime}" /></td>
+                        </tr>
+                        <tr>
+                            <th>退勤</th>
+                            <td><c:out value="${report.endTime}" /></td>
+                        </tr>
+                        <tr>
                             <th>日付</th>
                             <td><fmt:formatDate value="${report.report_date}" pattern="yyyy-MM-dd" /></td>
                         </tr>
